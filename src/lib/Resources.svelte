@@ -5,15 +5,15 @@ import { dynasty } from './utils/helper';
     const today = new Date();
     const resources = [
         {
-            name: "FTN Fantasy",
-            url: "https://www.ftnfantasy.com/nfl",
+            name: "Keep Trade Cut",
+            url: "https://www.keeptradecut.com/",
             icon: "insights",
             premium: true,
             separator: true,
         },
         {
-            name: "The Fantasy Footballers",
-            url: "https://www.thefantasyfootballers.com/",
+            name: "Fantasy Calc",
+            url: "https://www.fantasycalc.com/trade-calculator",
             icon: "podcasts",
             premium: true,
             separator: true,
@@ -27,8 +27,8 @@ import { dynasty } from './utils/helper';
             dynastyOnly: true,
         },
         {
-            name: "DynastyProcess Trade Calculator",
-            url: "https://apps.dynastyprocess.com/calculator/",
+            name: "The Score Trade Value Chart",
+            url: "https://www.thescore.com/news/2788879",
             icon: "calculate",
             premium: false,
             separator: true,
@@ -57,45 +57,6 @@ import { dynasty } from './utils/helper';
             premium: false,
             separator: true,
             redraftOnly: true,
-        },
-        {
-            name: "Dynasty 101 Trade Calculator",
-            url: "https://dynasty101.com/trade-calculator/",
-            icon: "calculate",
-            premium: false,
-            separator: true,
-            dynastyOnly: true,
-        },
-        {
-            name: "Dynasty Nerds GM",
-            url: "https://gm.dynastynerds.com/",
-            icon: "insights",
-            premium: true,
-            separator: true,
-            dynastyOnly: true,
-        },
-        {
-            name: "Fantasy Football Trade Analyzer",
-            url: `https://fantasyfootballcalculator.com/trade-analyzer`,
-            icon: "calculate",
-            premium: false,
-            separator: true,
-            redraftOnly: true,
-        },
-        {
-            name: "Reddit FF Trade Analyzer",
-            url: "https://www.reddit.com/r/TradeAnalyzerFF/",
-            icon: "assessment",
-            premium: false,
-            separator: true,
-        },
-        {
-            name: "FantasyCalc Trade Calculator",
-            url: "https://www.fantasycalc.com/trade-calculator",
-            icon: "calculate",
-            premium: false,
-            separator: false,
-            dynastyOnly: false,
         },
     ];
 </script>
